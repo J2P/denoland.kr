@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [{
+    "src": "*.md",
+    "use": "@now/md",
+    "config": {
+      "title": "Deno for korea",
+      "css": [
+        "/styles/index.css"
+      ]
+    }
+  }, {
+    "src": "./styles/*.*",
+    "use": "@now/static"
+  }, {
+    "src": "./images/*.*",
+    "use": "@now/static"
+  }]
+}
