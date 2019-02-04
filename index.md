@@ -122,4 +122,4 @@ Deno 는 한 개의 바이너리로 릴리즈 된다. 파일 그 사이즈 변�
 
 저작권은 모두 원저자들에게 있다. 번역을 포함한 다른 자료들의 저작권은 아래와 같다.
 
-MIT @ denoland.kr
+MIT @ [denoland.kr](https://github.com/denoland-kr)

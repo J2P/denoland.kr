@@ -15,7 +15,6 @@ img[alt=bechmarks] {
   width: 375px;
 }
 
-
 table {
   border-spacing: 0;
   border-collapse: collapse;
@@ -29,10 +28,25 @@ th {
   padding: 6px;
 }
 
+tr>td:nth-child(1) {
+  font-weight: 800;
+}
+
+tr>td:nth-child(4) {
+  text-align: left;
+}
+
 a {
   color: #333;
 }
 
 a:hover {
   color: #488;
+}
+
+pre {
+  background: #ddd;
+  padding: 15px;
+  word-wrap: normal;
+  overflow-x: auto
 }
